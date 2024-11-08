@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover Page - Just Mine</title>
+
+    <!-- Font and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!-- Inline CSS for Styling -->
+    <style>
+        body {
+            font-family: 'Just Another Hand', cursive;
+            background-image: url('assets/img/cover-background.jpg'); /* Ganti dengan gambar cover yang diinginkan */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .container {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .enter-button {
+            font-size: 1.5em;
+            padding: 10px 20px;
+            background-color: #ff6b6b;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .enter-button:hover {
+            background-color: #ff4b4b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Meski alay mohon terima aje dulu❤️</h1>
+        <p>by Dipta</p>
+        <button class="enter-button" onclick="enterGallery()">Enter Gallery</button>
+    </div>
+
+    <script>
+        function enterGallery() {
+            window.location.href = 'justmine.html';
+        }
+    </script>
+</body>
+</html>
